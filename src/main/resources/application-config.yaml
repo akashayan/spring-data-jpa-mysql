@@ -1,0 +1,10 @@
+---
+databaseConfiguration:
+  driverClassName: com.mysql.cj.jdbc.Driver
+  endpoint: jdbc:mysql://localhost:3306/employeesdb?autoReconnect=true&useSSL=false
+  userName: root
+  password: SkyScraper#4
+  hibernate:
+    ddlAuto: create-drop
+    dialect: org.hibernate.dialect.MySQLInnoDBDialect
+    showSql: true
